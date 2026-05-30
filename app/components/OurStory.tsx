@@ -30,7 +30,7 @@ export default function OurStory() {
               meaningful for children in our community.
             </p>
             <a
-              href="#get-involved"
+              href="/about"
               className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-7 py-3 rounded-full transition-colors"
             >
               More About Us

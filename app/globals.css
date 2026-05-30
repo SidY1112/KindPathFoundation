@@ -10,6 +10,18 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Carolina blue scale — #8AB8FE is the base accent (blue-400) */
+  --color-blue-50:  #EEF4FF;
+  --color-blue-100: #DAE8FF;
+  --color-blue-200: #BDD3FD;
+  --color-blue-300: #A0C1FC;
+  --color-blue-400: #8AB8FE;
+  --color-blue-500: #6B9CF0;
+  --color-blue-600: #4F7FE0;
+  --color-blue-700: #3862C0;
+  --color-blue-800: #2748A0;
+  --color-blue-900: #1A3280;
 }
 
 body {

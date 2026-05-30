@@ -16,15 +16,16 @@ export default function Hero() {
             </h2>
 
             <svg
-              className="w-7 h-7 text-blue-400 mt-4 mx-auto lg:mx-0"
-              viewBox="0 0 24 24"
+              className="w-8 h-8 text-blue-500 mt-4 mx-auto lg:mx-0"
+              viewBox="0 0 40 40"
               fill="none"
               stroke="currentColor"
-              strokeWidth="1.5"
+              strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <path d="M12 21s-8-5-8-11a6 6 0 0 1 8-5.66A6 6 0 0 1 20 10c0 6-8 11-8 11z" />
+              <path d="M20 34s-14-8.5-14-18a8 8 0 0 1 14-5.3A8 8 0 0 1 34 16c0 9.5-14 18-14 18z" />
+              <path d="M20 13v8M16 17h8" strokeWidth="1.5" />
             </svg>
 
             <p className="mt-4 text-gray-500 text-base sm:text-lg max-w-md mx-auto lg:mx-0">

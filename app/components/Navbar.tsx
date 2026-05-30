@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 const navLinks = [
   { label: 'Home', href: '#home' },
-  { label: 'About Us', href: '#about' },
+  { label: 'About Us', href: '/about' },
   { label: 'Our Impact', href: '#impact' },
   { label: 'Gallery', href: '#gallery' },
   { label: 'Get Involved', href: '#get-involved' },
@@ -42,13 +42,13 @@ export default function Navbar() {
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-7">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="text-sm text-gray-600 hover:text-blue-600 transition-colors font-medium"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
             <Link
               href="/donate"
@@ -84,14 +84,14 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden border-t border-gray-100 bg-white px-4 pt-3 pb-4 flex flex-col gap-1">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
               className="text-sm text-gray-600 hover:text-blue-600 py-2 font-medium transition-colors"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
           <Link
             href="/donate"

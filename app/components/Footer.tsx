@@ -110,7 +110,7 @@ export default function Footer() {
       <div className="border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-center">
           <p className="text-xs text-gray-400">
-            © 2024 Kind Path Foundation. All rights reserved.
+            © 2025 Kind Path Foundation. All rights reserved.
           </p>
         </div>
       </div>
