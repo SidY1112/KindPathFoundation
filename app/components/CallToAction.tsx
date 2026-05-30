@@ -21,10 +21,11 @@ export default function CallToAction() {
             </svg>
             <div className="text-center sm:text-left">
               <h2 className="text-2xl font-bold text-blue-900 mb-1">
-                Be Part of Their Happiness
+                Help a Family in Need
               </h2>
               <p className="text-gray-500 text-sm">
-                Your kindness today can create a memory they will cherish forever.
+                Your support helps families around the world access the resources they need
+                to live with dignity.
               </p>
             </div>
           </div>

@@ -3,15 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-
-  /* Carolina blue scale — #8AB8FE is the base accent (blue-400) */
+  /* Carolina blue (#8AB8FE) — overrides Tailwind's default blue scale */
   --color-blue-50:  #EEF4FF;
   --color-blue-100: #DAE8FF;
   --color-blue-200: #BDD3FD;
@@ -22,6 +15,13 @@
   --color-blue-700: #3862C0;
   --color-blue-800: #2748A0;
   --color-blue-900: #1A3280;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
 }
 
 body {

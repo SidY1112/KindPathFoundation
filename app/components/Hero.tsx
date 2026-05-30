@@ -9,10 +9,10 @@ export default function Hero() {
           {/* Text */}
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl font-bold text-blue-900 leading-tight">
-              Bringing Joy to Children
+              Empowering Families.
             </h1>
             <h2 className="text-4xl sm:text-5xl font-bold text-blue-500 leading-tight mt-1">
-              One Gift at a Time
+              Restoring Dignity.
             </h2>
 
             <svg
@@ -29,9 +29,8 @@ export default function Hero() {
             </svg>
 
             <p className="mt-4 text-gray-500 text-base sm:text-lg max-w-md mx-auto lg:mx-0">
-              Every child deserves to feel seen, valued, and loved. Kind Path Foundation brings
-              joy to children in need through meaningful gifts and acts of kindness one child
-              at a time.
+              Kind Path Foundation provides essential resources to families in need around the world.
+              From clothing and school supplies to furniture and beyond.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3">
@@ -57,7 +56,7 @@ export default function Hero() {
           <div className="flex-1 w-full max-w-lg lg:max-w-none">
             <img
               src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80"
-              alt="Happy children receiving gifts"
+              alt="Families receiving support from Kind Path Foundation"
               className="w-full h-80 lg:h-[480px] object-cover rounded-2xl shadow-md"
             />
           </div>

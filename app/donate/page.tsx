@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: 'Donate | Kind Path Foundation',
-  description: 'Support Kind Path Foundation and help bring joy to children in need.',
+  description: 'Support Kind Path Foundation and help provide essential resources to families in need around the world.',
 }
 
 export default function DonatePage() {
@@ -18,9 +18,10 @@ export default function DonatePage() {
         </svg>
         <h1 className="text-2xl font-bold text-blue-900 mb-2">Make a Donation</h1>
         <p className="text-gray-500 mb-8">
-          Every child deserves to feel seen, valued, and loved. Your generosity helps Kind Path
-          Foundation bring joy to children in need one child at a time. Online donations
-          coming soon. Thank you for your support!
+          Empowering families in need with essential resources, support, and dignity. From
+          clothing and school supplies to furniture and beyond, your generosity reaches
+          families anywhere in the world. Online donations coming soon. Thank you for
+          your support!
         </p>
         <Link
           href="/"

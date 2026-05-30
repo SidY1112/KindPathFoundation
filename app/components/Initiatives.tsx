@@ -1,16 +1,17 @@
 const initiatives = [
   {
-    title: 'Holiday Gift Drives',
-    description: 'Bringing joy during the most wonderful time of the year.',
+    title: 'Clothing Drives',
+    description: 'Providing clothing for families who need it most.',
     icon: (
       <svg className="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M20 12V8a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H9a2 2 0 00-2 2v2H6a2 2 0 00-2 2v4m16 0v6a2 2 0 01-2 2H6a2 2 0 01-2-2v-6m16 0H4M12 8v8" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V8l-5-5H9z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 3v5h5M9 12h6m-6 4h4" />
       </svg>
     ),
   },
   {
     title: 'Back-to-School Support',
-    description: 'Providing school supplies and essentials for a strong start.',
+    description: 'School supplies and essentials so every child starts the year ready.',
     icon: (
       <svg className="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 01-8 0M5 7h14m-9 4h4m-6 4h8M7 7V5a2 2 0 012-2h6a2 2 0 012 2v2" />
@@ -19,18 +20,18 @@ const initiatives = [
     ),
   },
   {
-    title: 'Birthday Gift Program',
-    description: 'Making birthdays special for children in need.',
+    title: 'Furniture Program',
+    description: 'Helping families turn a house into a home.',
     icon: (
       <svg className="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M21 15a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2h14a2 2 0 012 2v6zM7 7V5a1 1 0 011-1h8a1 1 0 011 1v2" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v4M9 7c0-1.5 1-3 3-3s3 1.5 3 3" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 12h18M3 12V8a2 2 0 012-2h14a2 2 0 012 2v4M3 12v5a1 1 0 001 1h16a1 1 0 001-1v-5" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M6 17v2m12-2v2" />
       </svg>
     ),
   },
   {
     title: 'Community Partnerships',
-    description: 'Working with local organizations to reach more children.',
+    description: 'Working with local organizations to reach families worldwide.',
     icon: (
       <svg className="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-1a4 4 0 00-4-4h-1M9 20H4v-1a4 4 0 014-4h1m4 5v-1a4 4 0 00-2-3.46M15 7a4 4 0 11-8 0 4 4 0 018 0z" />

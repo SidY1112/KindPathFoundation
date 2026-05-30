@@ -8,7 +8,7 @@ export default function OurStory() {
           <div className="flex-1 w-full max-w-lg lg:max-w-none">
             <img
               src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=700&q=80"
-              alt="Child holding a thank you sign"
+              alt="A family receiving support"
               className="w-full h-80 lg:h-[420px] object-cover rounded-2xl shadow-md"
             />
           </div>
@@ -22,12 +22,14 @@ export default function OurStory() {
               Why We Started
             </h2>
             <p className="text-gray-600 text-base leading-relaxed mb-4">
-              Kind Path Foundation was created with a simple belief: every child deserves to
-              experience the joy of being thought of and cared for.
+              Kind Path Foundation was built on a simple belief: every family deserves to live
+              with dignity. No matter where you are in the world, the basics of life should
+              never feel out of reach.
             </p>
             <p className="text-gray-600 text-base leading-relaxed mb-8">
-              We want to make birthdays brighter, holidays happier, and everyday moments more
-              meaningful for children in our community.
+              We provide clothing, school supplies, furniture, and more to families who need
+              a hand getting back on their feet. Because when a family is stable, everything
+              else becomes possible.
             </p>
             <a
               href="/about"

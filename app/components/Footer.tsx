@@ -1,23 +1,15 @@
-import Link from 'next/link'
-
 const quickLinks = [
+  { label: 'Home', href: '/' },
   { label: 'About Us', href: '#about' },
   { label: 'Our Impact', href: '#impact' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Get Involved', href: '#get-involved' },
-]
-
-const getInvolvedLinks = [
   { label: 'Donate', href: '/donate' },
-  { label: 'Volunteer', href: '#' },
-  { label: 'Spread the Word', href: '#' },
 ]
 
 export default function Footer() {
   return (
     <footer className="bg-white border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
 
           {/* Brand */}
           <div>
@@ -40,7 +32,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm text-gray-500 leading-relaxed">
-              Every child deserves to feel seen, valued, and loved — one child at a time.
+              Empowering families in need with essential resources and dignity, one family at a time.
             </p>
           </div>
 
@@ -56,23 +48,6 @@ export default function Footer() {
                   >
                     {link.label}
                   </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Get Involved */}
-          <div>
-            <h4 className="text-sm font-bold text-blue-900 mb-4">Get Involved</h4>
-            <ul className="space-y-2">
-              {getInvolvedLinks.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-gray-500 hover:text-blue-600 transition-colors"
-                  >
-                    {link.label}
-                  </Link>
                 </li>
               ))}
             </ul>

@@ -6,13 +6,13 @@ import Footer from '../components/Footer'
 export const metadata = {
   title: 'About Us | Kind Path Foundation',
   description:
-    'Every child deserves to feel seen, valued, and loved. Learn about Kind Path Foundation and our mission to bring joy to children in need.',
+    'Empowering families in need with essential resources, support, and dignity anywhere in the world.',
 }
 
 const values = [
   {
     title: 'Compassion',
-    description: 'We lead with love and empathy in everything we do.',
+    description: 'We lead with empathy in everything we do. Every family we serve is someone\'s whole world.',
     icon: (
       <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 21s-8-5-8-11a6 6 0 0 1 8-5.66A6 6 0 0 1 20 10c0 6-8 11-8 11z" />
@@ -21,7 +21,7 @@ const values = [
   },
   {
     title: 'Community',
-    description: 'We believe change starts locally, one child at a time.',
+    description: 'We believe real change starts close to home and grows outward. One family at a time.',
     icon: (
       <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">
         <path d="M17 20h5v-1a4 4 0 00-4-4h-1M9 20H4v-1a4 4 0 014-4h1m4 5v-1a4 4 0 00-2-3.46M15 7a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -31,7 +31,7 @@ const values = [
   },
   {
     title: 'Impact',
-    description: 'Every gift, every smile, every moment matters.',
+    description: 'Every resource we provide and every family we reach matters. Nothing we do is small.',
     icon: (
       <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">
         <path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
@@ -42,19 +42,20 @@ const values = [
 
 const initiatives = [
   {
-    title: 'Holiday Gift Drives',
+    title: 'Clothing Drives',
     description:
-      'Each holiday season we organize city-wide gift drives to ensure no child wakes up without something to unwrap. From toys to warm clothing, we make sure every child feels celebrated and remembered.',
+      'We organize clothing drives to collect gently used and new clothing for families who need it. No one should go without the basics, and we make sure they don\'t have to.',
     icon: (
       <svg className="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M20 12V8a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H9a2 2 0 00-2 2v2H6a2 2 0 00-2 2v4m16 0v6a2 2 0 01-2 2H6a2 2 0 01-2-2v-6m16 0H4M12 8v8" />
+        <path d="M9 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V8l-5-5H9z" />
+        <path d="M9 3v5h5M9 12h6m-6 4h4" />
       </svg>
     ),
   },
   {
     title: 'Back-to-School Support',
     description:
-      'Starting a new school year should be exciting, not stressful. We provide backpacks, supplies, and essentials so every child can walk into their classroom feeling confident, prepared, and ready to learn.',
+      'When a child walks into school with the supplies they need, they carry confidence with them. We make sure that happens for families who need a little help at the start of every school year.',
     icon: (
       <svg className="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">
         <path d="M16 7a4 4 0 01-8 0M5 7h14m-9 4h4m-6 4h8M7 7V5a2 2 0 012-2h6a2 2 0 012 2v2" />
@@ -63,20 +64,20 @@ const initiatives = [
     ),
   },
   {
-    title: 'Birthday Gift Program',
+    title: 'Furniture Program',
     description:
-      'Every child deserves a birthday moment to remember. Our program connects donors with children in need, delivering thoughtful birthday gifts, cards, and smiles on their most special day of the year.',
+      'A house becomes a home when families have the essentials to live with dignity. We help furnish spaces for families starting fresh, so they can feel settled and safe.',
     icon: (
       <svg className="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M21 15a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2h14a2 2 0 012 2v6zM7 7V5a1 1 0 011-1h8a1 1 0 011 1v2" />
-        <path d="M12 3v4M9 7c0-1.5 1-3 3-3s3 1.5 3 3" />
+        <path d="M3 12h18M3 12V8a2 2 0 012-2h14a2 2 0 012 2v4M3 12v5a1 1 0 001 1h16a1 1 0 001-1v-5" />
+        <path d="M6 17v2m12-2v2" />
       </svg>
     ),
   },
   {
     title: 'Community Partnerships',
     description:
-      'We partner with local shelters, schools, and community organizations to identify children who need us most and deliver our programs where they can make the greatest difference.',
+      'Our reach extends globally through partnerships with local shelters, schools, and organizations that know their communities best. Together we go further than any of us could alone.',
     icon: (
       <svg className="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">
         <path d="M17 20h5v-1a4 4 0 00-4-4h-1M9 20H4v-1a4 4 0 014-4h1m4 5v-1a4 4 0 00-2-3.46M15 7a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -99,9 +100,8 @@ export default function AboutPage() {
               About Kind Path Foundation
             </h1>
             <p className="text-blue-100 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-              Every child deserves to feel seen, valued, and loved. Kind Path Foundation brings
-              joy to children in need through meaningful gifts and acts of kindness one child
-              at a time.
+              Empowering families in need with essential resources, support, and dignity.
+              From clothing and school supplies to furniture and beyond, anywhere in the world.
             </p>
           </div>
         </section>
@@ -129,10 +129,10 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* How We Make An Impact - reused component */}
+        {/* How We Make An Impact */}
         <HowItWorks />
 
-        {/* Upcoming Initiatives - extended descriptions */}
+        {/* Upcoming Initiatives with extended descriptions */}
         <section className="bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
             <div className="text-center mb-12">
@@ -164,7 +164,8 @@ export default function AboutPage() {
               Ready to Make a Difference?
             </h2>
             <p className="text-gray-500 text-base mb-8 max-w-md mx-auto">
-              Your support helps us reach more children and create moments they will cherish forever.
+              Your support helps families around the world access the resources they need
+              to live with dignity.
             </p>
             <Link
               href="/donate"
